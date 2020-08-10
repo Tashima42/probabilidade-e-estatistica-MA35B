@@ -10,8 +10,8 @@ Repositório de anotações e exercícios da disciplina Probabilidade e estatís
 - Aula 2: 
   - [Exercícios](https://github.com/Tashima42/probabilidade-e-estatistica-MA35B/tree/master/aula2/exercicios)
   - [Tarefas](https://github.com/Tashima42/probabilidade-e-estatistica-MA35B/tree/master/aula2/tarefas)
-  - [Anotações](https://github.com/Tashima42/probabilidade-e-estatistica-MA35B/tree/master/aula2/anotacoes)
-  - Aula 3 (Próxima semana): 
+  - [Anotações](https://github.com/Tashima42/probabilidade-e-estatistica-MA35B/tree/master/aula2/anotacoes)    
+- Aula 3 (Próxima semana): 
   - [Exercícios](https://github.com/Tashima42/probabilidade-e-estatistica-MA35B/tree/master/aula3/exercicios)
   - [Tarefas](https://github.com/Tashima42/probabilidade-e-estatistica-MA35B/tree/master/aula3/tarefas)
   - [Anotações](https://github.com/Tashima42/probabilidade-e-estatistica-MA35B/tree/master/aula3/anotacoes)
