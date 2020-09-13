@@ -18,6 +18,14 @@ Repositório de anotações e exercícios da disciplina Probabilidade e estatís
   - [Exercícios](https://github.com/Tashima42/probabilidade-e-estatistica-MA35B/tree/master/avaliacao1/exercicios) 
   - [Avaliação](https://github.com/Tashima42/probabilidade-e-estatistica-MA35B/tree/master/avaliacao1/avaliacao)
  - Aula 4:
-  - [Exercícios](https://github.com/Tashima42/probabilidade-e-estatistica-MA35B/tree/master/aula4/exercicios)
-  - [Tarefas](https://github.com/Tashima42/probabilidade-e-estatistica-MA35B/tree/master/aula4/tarefas)
-  - [Anotações](https://github.com/Tashima42/probabilidade-e-estatistica-MA35B/tree/master/aula4/anotacoes)
+    - [Exercícios](https://github.com/Tashima42/probabilidade-e-estatistica-MA35B/tree/master/aula4/exercicios)
+    - [Tarefas](https://github.com/Tashima42/probabilidade-e-estatistica-MA35B/tree/master/aula4/tarefas)
+    - [Anotações](https://github.com/Tashima42/probabilidade-e-estatistica-MA35B/tree/master/aula4/anotacoes)    
+  - Aula 5 \\:
+    - [Exercícios \\](https://github.com/Tashima42/probabilidade-e-estatistica-MA35B/tree/master/aula5/exercicios)
+    - [Tarefas \\](https://github.com/Tashima42/probabilidade-e-estatistica-MA35B/tree/master/aula5/tarefas)
+    - [Anotações \\](https://github.com/Tashima42/probabilidade-e-estatistica-MA35B/tree/master/aula5/anotacoes)
+  - Aula 6:
+    - [Exercícios](https://github.com/Tashima42/probabilidade-e-estatistica-MA35B/tree/master/aula6/exercicios)
+    - [Tarefas](https://github.com/Tashima42/probabilidade-e-estatistica-MA35B/tree/master/aula6/tarefas)
+    - [Anotações](https://github.com/Tashima42/probabilidade-e-estatistica-MA35B/tree/master/aula6/anotacoes)
