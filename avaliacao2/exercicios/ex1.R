@@ -2,10 +2,20 @@ setwd("~/Documents/projects/UTFPR/probabilidade-e-estatistica-MA35B/avaliacao2/e
 
 data <- read.csv(file="probabilidade.csv", sep = ";")
 
-mediaTempodata <- mean(data$Tempo)
-desvio <- sd(data$Tempo)
-x <- seq(min(data$Tempo), max(data$Tempo), by=0.001)
+temperatura <- data$Temperatura
+firstBrand <- data[data$Marca=="A",]
+secondBrand <- data[data$Marca=="B",]
+
+tempoA <- firstBrand$Temperatura
+tempoB <- secondBrand$Temperatura
+
+mediaTempodata <- mean(temperatura)
+desvio <- sd(temperatura)
+x <- seq(min(temperatura), max(temperatura), by=0.001)
 fteorico <- dnorm(x, mean=mediaTempodata, sd=desvio)
 
-hist(data$Tempo, freq = F, xlab = "Tempo De Duracao (Dias)", ylab = "Frequencia Relativa", main = "")
+hist(temperatura, freq = F, xlab = "Tempo B (Dias)", ylab = "Frequencia Relativa", main = "")
 lines(x, fteorico, col="red")
+
+qqnorm(temperatura, ylab="Quntis observados da amostra", xlab = "Quantis teóricos da distribuição normal")
+qqline(temperatura,col="red")
