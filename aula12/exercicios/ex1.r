@@ -1,4 +1,4 @@
-setwd("/home/tashima/Documents/projects/UTFPR/probabilidade-e-estatistica-MA35B/aula12/exercicios")
+setwd("C:/Users/pedro/Documents/projects/UTFPR/probabilidade-e-estatistica-MA35B/aula12/exercicios")
 
 dadosPare <- read.csv("pareado.csv",sep=";",dec=",")
 dadosInde <- read.csv("independente.csv",sep=";",dec=",")
@@ -34,6 +34,7 @@ shapiro.test(DietaB$Perda)
 wilcox.test(dadosInde$Perda~dadosInde$Dieta)
 
 ##################################################################
+
 ANOVA <- aov(dadosKrus$Altura~dadosKrus$Adubo)
 
 residos <- ANOVA$res
@@ -44,6 +45,7 @@ shapiro.test(residos)
 
 preditos <- predict(ANOVA)
 plot(residos,preditos)
+install.packages("lmtest")
 library(lmtest)
 bptest(ANOVA)
 gqtest(ANOVA)
@@ -58,3 +60,27 @@ library(agricolae)
 K.teste <- kruskal(dadosKrus$Altura,dadosKrus$Adubo)
 K.teste$statistics
 K.teste$groups
+
+##################################################################
+
+peso     <- c(56,58,70,72,81,92,95,100,104,112)
+glicemia <- c(71,78,79,85,85,102,110,176,181,318)
+
+qqnorm(peso,ylab="Quantis Observados",xlab="Quantis Teóricos")
+qqline(peso,col="red")
+shapiro.test(peso)
+
+qqnorm(glicemia,ylab="Quantis Observados",xlab="Quantis Teóricos")
+qqline(glicemia,col="red")
+shapiro.test(glicemia)
+
+cor.test(peso,glicemia,method="spearman")
+cor.test(peso,glicemia,method="kendall")
+
+#########################################################################################
+# Teste Qui-quadrado (Alternativa a Regressao Logistica)
+#########################################################################################
+
+dados  <- read.csv("dados.csv",sep=";",dec=",")
+
+chisq.test(table(dados$Dieta,dados$Hipertensao))
